@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963B39E2A56B485B86106FA8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A0D626251D24210B6F989D7 /* libPods.a */; };
 		BA94C980170645AD00AC0934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C97F170645AD00AC0934 /* Foundation.framework */; };
-		BA94C985170645AD00AC0934 /* MKCommunicationExtra.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA94C984170645AD00AC0934 /* MKCommunicationExtra.h */; };
-		BA94C987170645AD00AC0934 /* MKCommunicationExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = BA94C986170645AD00AC0934 /* MKCommunicationExtra.m */; };
 		BA94C98F170645AE00AC0934 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C98E170645AE00AC0934 /* SenTestingKit.framework */; };
 		BA94C991170645AE00AC0934 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C990170645AE00AC0934 /* UIKit.framework */; };
 		BA94C992170645AE00AC0934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C97F170645AD00AC0934 /* Foundation.framework */; };
@@ -35,18 +34,16 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				BA94C985170645AD00AC0934 /* MKCommunicationExtra.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A0D626251D24210B6F989D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA94C97C170645AD00AC0934 /* libMKCommunicationExtra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKCommunicationExtra.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA94C97F170645AD00AC0934 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA94C983170645AD00AC0934 /* MKCommunicationExtra-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKCommunicationExtra-Prefix.pch"; sourceTree = "<group>"; };
-		BA94C984170645AD00AC0934 /* MKCommunicationExtra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCommunicationExtra.h; sourceTree = "<group>"; };
-		BA94C986170645AD00AC0934 /* MKCommunicationExtra.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCommunicationExtra.m; sourceTree = "<group>"; };
 		BA94C98D170645AE00AC0934 /* MKCommunicationExtraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKCommunicationExtraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA94C98E170645AE00AC0934 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BA94C990170645AE00AC0934 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +51,7 @@
 		BA94C99A170645AE00AC0934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA94C99C170645AE00AC0934 /* MKCommunicationExtraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCommunicationExtraTests.h; sourceTree = "<group>"; };
 		BA94C99D170645AE00AC0934 /* MKCommunicationExtraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCommunicationExtraTests.m; sourceTree = "<group>"; };
+		ED1E4A0762A7499A820202A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +60,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA94C980170645AD00AC0934 /* Foundation.framework in Frameworks */,
+				963B39E2A56B485B86106FA8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +85,7 @@
 				BA94C996170645AE00AC0934 /* MKCommunicationExtraTests */,
 				BA94C97E170645AD00AC0934 /* Frameworks */,
 				BA94C97D170645AD00AC0934 /* Products */,
+				ED1E4A0762A7499A820202A3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +104,7 @@
 				BA94C97F170645AD00AC0934 /* Foundation.framework */,
 				BA94C98E170645AE00AC0934 /* SenTestingKit.framework */,
 				BA94C990170645AE00AC0934 /* UIKit.framework */,
+				1A0D626251D24210B6F989D7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,8 +112,6 @@
 		BA94C981170645AD00AC0934 /* MKCommunicationExtra */ = {
 			isa = PBXGroup;
 			children = (
-				BA94C984170645AD00AC0934 /* MKCommunicationExtra.h */,
-				BA94C986170645AD00AC0934 /* MKCommunicationExtra.m */,
 				BA94C982170645AD00AC0934 /* Supporting Files */,
 			);
 			path = MKCommunicationExtra;
@@ -155,6 +154,7 @@
 				BA94C978170645AD00AC0934 /* Sources */,
 				BA94C979170645AD00AC0934 /* Frameworks */,
 				BA94C97A170645AD00AC0934 /* CopyFiles */,
+				3D707D1356764979B542A1AD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +223,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3D707D1356764979B542A1AD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		BA94C98B170645AE00AC0934 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA94C987170645AD00AC0934 /* MKCommunicationExtra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,11 +345,12 @@
 		};
 		BA94C9A2170645AE00AC0934 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1E4A0762A7499A820202A3 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/MKCommunicationExtra.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKCommunicationExtra/MKCommunicationExtra-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -344,11 +358,12 @@
 		};
 		BA94C9A3170645AE00AC0934 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1E4A0762A7499A820202A3 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/MKCommunicationExtra.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKCommunicationExtra/MKCommunicationExtra-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -403,6 +418,7 @@
 				BA94C9A3170645AE00AC0934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA94C9A4170645AE00AC0934 /* Build configuration list for PBXNativeTarget "MKCommunicationExtraTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +427,7 @@
 				BA94C9A6170645AE00AC0934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
