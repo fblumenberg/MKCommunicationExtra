@@ -15,6 +15,14 @@
 		BA94C995170645AE00AC0934 /* libMKCommunicationExtra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA94C97C170645AD00AC0934 /* libMKCommunicationExtra.a */; };
 		BA94C99B170645AE00AC0934 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA94C999170645AE00AC0934 /* InfoPlist.strings */; };
 		BA94C99E170645AE00AC0934 /* MKCommunicationExtraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA94C99D170645AE00AC0934 /* MKCommunicationExtraTests.m */; };
+		BAB86A8A170995480096C957 /* MKBluetoothConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB86A78170995480096C957 /* MKBluetoothConnection.m */; };
+		BAB86A8B170995480096C957 /* MKSerialConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB86A7A170995480096C957 /* MKSerialConnection.m */; };
+		BAB86A8C170995480096C957 /* AMSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB86A7F170995480096C957 /* AMSerialPort.m */; };
+		BAB86A8D170995480096C957 /* AMSerialPortAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB86A81170995480096C957 /* AMSerialPortAdditions.m */; };
+		BAB86A8E170995480096C957 /* BTDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB86A83170995480096C957 /* BTDevice.m */; };
+		BAB86A8F170995480096C957 /* BTDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB86A85170995480096C957 /* BTDiscoveryViewController.m */; };
+		BAB86A90170995480096C957 /* BTStackManagerDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB86A87170995480096C957 /* BTStackManagerDiscovery.m */; };
+		BAB86A91170995480096C957 /* MKBTStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB86A89170995480096C957 /* MKBTStackManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,27 @@
 		BA94C99A170645AE00AC0934 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA94C99C170645AE00AC0934 /* MKCommunicationExtraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCommunicationExtraTests.h; sourceTree = "<group>"; };
 		BA94C99D170645AE00AC0934 /* MKCommunicationExtraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCommunicationExtraTests.m; sourceTree = "<group>"; };
+		BAB86A77170995480096C957 /* MKBluetoothConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBluetoothConnection.h; sourceTree = "<group>"; };
+		BAB86A78170995480096C957 /* MKBluetoothConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBluetoothConnection.m; sourceTree = "<group>"; };
+		BAB86A79170995480096C957 /* MKSerialConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSerialConnection.h; sourceTree = "<group>"; };
+		BAB86A7A170995480096C957 /* MKSerialConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSerialConnection.m; sourceTree = "<group>"; };
+		BAB86A7C170995480096C957 /* AMSDKCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSDKCompatibility.h; sourceTree = "<group>"; };
+		BAB86A7D170995480096C957 /* AMSerialErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialErrors.h; sourceTree = "<group>"; };
+		BAB86A7E170995480096C957 /* AMSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPort.h; sourceTree = "<group>"; };
+		BAB86A7F170995480096C957 /* AMSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPort.m; sourceTree = "<group>"; };
+		BAB86A80170995480096C957 /* AMSerialPortAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSerialPortAdditions.h; sourceTree = "<group>"; };
+		BAB86A81170995480096C957 /* AMSerialPortAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSerialPortAdditions.m; sourceTree = "<group>"; };
+		BAB86A82170995480096C957 /* BTDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDevice.h; sourceTree = "<group>"; };
+		BAB86A83170995480096C957 /* BTDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDevice.m; sourceTree = "<group>"; };
+		BAB86A84170995480096C957 /* BTDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDiscoveryViewController.h; sourceTree = "<group>"; };
+		BAB86A85170995480096C957 /* BTDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDiscoveryViewController.m; sourceTree = "<group>"; };
+		BAB86A86170995480096C957 /* BTStackManagerDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTStackManagerDiscovery.h; sourceTree = "<group>"; };
+		BAB86A87170995480096C957 /* BTStackManagerDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTStackManagerDiscovery.m; sourceTree = "<group>"; };
+		BAB86A88170995480096C957 /* MKBTStackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBTStackManager.h; sourceTree = "<group>"; };
+		BAB86A89170995480096C957 /* MKBTStackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBTStackManager.m; sourceTree = "<group>"; };
+		BAB86A96170997280096C957 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAB86A991709A0910096C957 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/BTDiscovery.strings; sourceTree = "<group>"; };
+		BAB86A9A1709A0910096C957 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BTDiscovery.strings; sourceTree = "<group>"; };
 		ED1E4A0762A7499A820202A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -112,6 +141,9 @@
 		BA94C981170645AD00AC0934 /* MKCommunicationExtra */ = {
 			isa = PBXGroup;
 			children = (
+				BAB86A971709A0910096C957 /* Resources */,
+				BAB86A76170995480096C957 /* Connections */,
+				BAB86A7B170995480096C957 /* Lowlevel */,
 				BA94C982170645AD00AC0934 /* Supporting Files */,
 			);
 			path = MKCommunicationExtra;
@@ -142,6 +174,46 @@
 				BA94C999170645AE00AC0934 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAB86A76170995480096C957 /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				BAB86A77170995480096C957 /* MKBluetoothConnection.h */,
+				BAB86A78170995480096C957 /* MKBluetoothConnection.m */,
+				BAB86A79170995480096C957 /* MKSerialConnection.h */,
+				BAB86A7A170995480096C957 /* MKSerialConnection.m */,
+			);
+			path = Connections;
+			sourceTree = "<group>";
+		};
+		BAB86A7B170995480096C957 /* Lowlevel */ = {
+			isa = PBXGroup;
+			children = (
+				BAB86A7C170995480096C957 /* AMSDKCompatibility.h */,
+				BAB86A7D170995480096C957 /* AMSerialErrors.h */,
+				BAB86A7E170995480096C957 /* AMSerialPort.h */,
+				BAB86A7F170995480096C957 /* AMSerialPort.m */,
+				BAB86A80170995480096C957 /* AMSerialPortAdditions.h */,
+				BAB86A81170995480096C957 /* AMSerialPortAdditions.m */,
+				BAB86A82170995480096C957 /* BTDevice.h */,
+				BAB86A83170995480096C957 /* BTDevice.m */,
+				BAB86A84170995480096C957 /* BTDiscoveryViewController.h */,
+				BAB86A85170995480096C957 /* BTDiscoveryViewController.m */,
+				BAB86A86170995480096C957 /* BTStackManagerDiscovery.h */,
+				BAB86A87170995480096C957 /* BTStackManagerDiscovery.m */,
+				BAB86A88170995480096C957 /* MKBTStackManager.h */,
+				BAB86A89170995480096C957 /* MKBTStackManager.m */,
+			);
+			path = Lowlevel;
+			sourceTree = "<group>";
+		};
+		BAB86A971709A0910096C957 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAB86A981709A0910096C957 /* BTDiscovery.strings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +271,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				de,
 			);
 			mainGroup = BA94C973170645AD00AC0934;
 			productRefGroup = BA94C97D170645AD00AC0934 /* Products */;
@@ -257,6 +330,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB86A8A170995480096C957 /* MKBluetoothConnection.m in Sources */,
+				BAB86A8B170995480096C957 /* MKSerialConnection.m in Sources */,
+				BAB86A8C170995480096C957 /* AMSerialPort.m in Sources */,
+				BAB86A8D170995480096C957 /* AMSerialPortAdditions.m in Sources */,
+				BAB86A8E170995480096C957 /* BTDevice.m in Sources */,
+				BAB86A8F170995480096C957 /* BTDiscoveryViewController.m in Sources */,
+				BAB86A90170995480096C957 /* BTStackManagerDiscovery.m in Sources */,
+				BAB86A91170995480096C957 /* MKBTStackManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,8 +364,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				BA94C99A170645AE00AC0934 /* en */,
+				BAB86A96170997280096C957 /* de */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAB86A981709A0910096C957 /* BTDiscovery.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB86A991709A0910096C957 /* de */,
+				BAB86A9A1709A0910096C957 /* en */,
+			);
+			name = BTDiscovery.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -296,7 +387,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
@@ -326,7 +417,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;

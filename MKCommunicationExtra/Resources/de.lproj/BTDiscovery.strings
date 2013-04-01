@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  MKCommunicationExtra
+
+  Created by Frank Blumenberg on 01.04.13.
+  Copyright (c) 2013 Frank Blumenberg. All rights reserved.
+*/
+/* BT discovery */
+"Activating BTstack..." = "Aktiviere BTstack...";
+
+/* BT discovery */
+"Bluetooth not accessible!" = "Bluetooth nicht verfügbar!";
+
+/* BT discovery title */
+"Bluetooth" = "Bluetooth";
+
+/* BT descovery cancel */
+"Cancel" = "Abbruch";
+
+/* BT discovery */
+"Find devices..." = "Suche Geräte...";
+
+/* BT discovery */
+"Find more devices..." = "Weitere Geräte suchen...";
+
+/* BT discovery */
+"Query device names..." = "Gerätenamen erfragen...";
+
+/* BT discovery */
+"Searching..." = "Suche...";
+
+/* BT discovery title */
+"Select the Device" = "Gerät wählen";
