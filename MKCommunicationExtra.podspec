@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.source_files = 'MKCommunicationExtra', 'MKCommunicationExtra/**/*.{h,m,c}'
 
-  s.resources  = "MKCommunicationExtra/MKCommunicationExtra/Resources/*"
+  s.resources = "MKCommunicationExtra/MKCommunicationExtra/Resources/*"
 
   s.frameworks = 'CoreGraphics', 'CoreLocation', 'CFNetwork'
   s.requires_arc = false
