@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "MKCommunicationExtra"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A library which implements the base communication to a Mikrokopter via TCP/IP."
   s.license      = 'MIT'
   s.author       = { "frank" => "frank@frankblumenberg.de" }
