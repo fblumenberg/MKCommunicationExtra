@@ -25,7 +25,7 @@
 
 #import "MKBluetoothConnection.h"
 #import "MKBTStackManager.h"
-#import "DDLog.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 static NSString *const MKBluetoothConnectionException = @"MKBluetoothConnectionException";
 

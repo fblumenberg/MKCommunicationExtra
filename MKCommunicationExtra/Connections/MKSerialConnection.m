@@ -26,7 +26,7 @@
 #import "MKSerialConnection.h"
 #import "AMSerialPort.h"
 #import "AMSerialPortAdditions.h"
-#import "DDLog.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 static NSString *const MKSerialConnectionException = @"MKSerialConnectionException";
 

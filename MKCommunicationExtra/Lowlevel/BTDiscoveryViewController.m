@@ -31,7 +31,7 @@
 
 #import "BTDiscoveryViewController.h"
 #import "BTDevice.h"
-#import "DDLog.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 #undef ql_component
 #define ql_component lcl_cCommunication

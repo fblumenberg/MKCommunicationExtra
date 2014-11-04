@@ -48,7 +48,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		181FD14DE1E6393040949257 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		1A0D626251D24210B6F989D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		55C0F2771C1E4605F2186DFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BA94C97C170645AD00AC0934 /* libMKCommunicationExtra.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMKCommunicationExtra.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA94C97F170645AD00AC0934 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA94C983170645AD00AC0934 /* MKCommunicationExtra-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKCommunicationExtra-Prefix.pch"; sourceTree = "<group>"; };
@@ -60,7 +62,7 @@
 		BA94C99C170645AE00AC0934 /* MKCommunicationExtraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKCommunicationExtraTests.h; sourceTree = "<group>"; };
 		BA94C99D170645AE00AC0934 /* MKCommunicationExtraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKCommunicationExtraTests.m; sourceTree = "<group>"; };
 		BAB86A77170995480096C957 /* MKBluetoothConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBluetoothConnection.h; sourceTree = "<group>"; };
-		BAB86A78170995480096C957 /* MKBluetoothConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBluetoothConnection.m; sourceTree = "<group>"; };
+		BAB86A78170995480096C957 /* MKBluetoothConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MKBluetoothConnection.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BAB86A79170995480096C957 /* MKSerialConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSerialConnection.h; sourceTree = "<group>"; };
 		BAB86A7A170995480096C957 /* MKSerialConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKSerialConnection.m; sourceTree = "<group>"; };
 		BAB86A7C170995480096C957 /* AMSDKCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSDKCompatibility.h; sourceTree = "<group>"; };
@@ -72,15 +74,14 @@
 		BAB86A82170995480096C957 /* BTDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDevice.h; sourceTree = "<group>"; };
 		BAB86A83170995480096C957 /* BTDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDevice.m; sourceTree = "<group>"; };
 		BAB86A84170995480096C957 /* BTDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTDiscoveryViewController.h; sourceTree = "<group>"; };
-		BAB86A85170995480096C957 /* BTDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTDiscoveryViewController.m; sourceTree = "<group>"; };
+		BAB86A85170995480096C957 /* BTDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BTDiscoveryViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BAB86A86170995480096C957 /* BTStackManagerDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTStackManagerDiscovery.h; sourceTree = "<group>"; };
-		BAB86A87170995480096C957 /* BTStackManagerDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTStackManagerDiscovery.m; sourceTree = "<group>"; };
+		BAB86A87170995480096C957 /* BTStackManagerDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BTStackManagerDiscovery.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		BAB86A88170995480096C957 /* MKBTStackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBTStackManager.h; sourceTree = "<group>"; };
 		BAB86A89170995480096C957 /* MKBTStackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKBTStackManager.m; sourceTree = "<group>"; };
 		BAB86A96170997280096C957 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAB86A991709A0910096C957 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/BTDiscovery.strings; sourceTree = "<group>"; };
 		BAB86A9A1709A0910096C957 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BTDiscovery.strings; sourceTree = "<group>"; };
-		ED1E4A0762A7499A820202A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +115,7 @@
 				BA94C996170645AE00AC0934 /* MKCommunicationExtraTests */,
 				BA94C97E170645AD00AC0934 /* Frameworks */,
 				BA94C97D170645AD00AC0934 /* Products */,
-				ED1E4A0762A7499A820202A3 /* Pods.xcconfig */,
+				D6266F018AB8F382C292021D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -216,6 +217,15 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		D6266F018AB8F382C292021D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				181FD14DE1E6393040949257 /* Pods.debug.xcconfig */,
+				55C0F2771C1E4605F2186DFF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,7 +264,7 @@
 			name = MKCommunicationExtraTests;
 			productName = MKCommunicationExtraTests;
 			productReference = BA94C98D170645AE00AC0934 /* MKCommunicationExtraTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -262,6 +272,7 @@
 		BA94C974170645AD00AC0934 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Frank Blumenberg";
 			};
@@ -308,7 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 		};
 		BA94C98B170645AE00AC0934 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -436,7 +447,7 @@
 		};
 		BA94C9A2170645AE00AC0934 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED1E4A0762A7499A820202A3 /* Pods.xcconfig */;
+			baseConfigurationReference = 181FD14DE1E6393040949257 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/MKCommunicationExtra.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -449,7 +460,7 @@
 		};
 		BA94C9A3170645AE00AC0934 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED1E4A0762A7499A820202A3 /* Pods.xcconfig */;
+			baseConfigurationReference = 55C0F2771C1E4605F2186DFF /* Pods.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/MKCommunicationExtra.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

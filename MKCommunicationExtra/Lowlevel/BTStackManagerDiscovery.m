@@ -32,7 +32,7 @@
 #import "BTStackManagerDiscovery.h"
 #import <btstack/btstack.h>
 #import "BTDevice.h"
-#import "DDLog.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 
 #define INQUIRY_INTERVAL 3
 
